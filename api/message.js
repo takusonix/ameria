@@ -1,6 +1,6 @@
 // 外部インポート
 const AssistantV1 = require('ibm-watson/assistant/v1');
-const IamAuthenticator = require('ibm-watson/auth');
+const { IamAuthenticator } = require('ibm-watson/auth');
 
 // 内部インポート
 const config = require('../config/config');
